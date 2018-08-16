@@ -31,6 +31,8 @@ def school(dbn):
   school = School.query.filter_by(dbn=dbn).first()
   return render_template("show.html", school=school)
 
+  # git test
+
 # @app.route("/search")
 # def search():
 #   name = request.args.get('query')
